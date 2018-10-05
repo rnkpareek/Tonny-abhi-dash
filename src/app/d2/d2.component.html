@@ -1,0 +1,276 @@
+<br><div class="nav">
+  
+</div><br><accordion>
+  <accordion-group heading="Master Data creation/update">
+    <div class="panel-body">
+        <form (submit)="masterDataCreation(keyword.value, criteria.value)">
+          <div class="form-group">
+            <input type="text" #keyword class="form-control" id="keywords" placeholder="Enter Keywords" required>
+          </div>
+          <div class="form-group">
+            <input type="text" #criteria class="form-control" id="criteria" placeholder="Enter Search Criteria" required>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-sbt">Save</button>
+          <button type="button" id="master-data-clear" class="btn btn-default btn-sbt">Clear</button>
+        </form>
+        </div>
+  </accordion-group>
+
+
+
+
+  <accordion-group heading="Schedule Frequency">
+   
+     <div class="panel-body">
+          <ul class="list-group">
+          <li class="list-group-item list-tite" style="margin-right: 25px;">Weekly</li>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="weekly-keywords" placeholder="Enter Keywords" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="weekly-criteria" placeholder="Enter Search Criteria" required>
+              </div>
+              <p class="weekly-success"></p>
+            </form>
+        </ul>
+       <ul >
+            <li >
+            	
+  <select>
+   <option [value]="country">hello</option>
+ </select>     
+ 
+          </li>
+            <li >
+              <input type="date" class="form-control" >
+            </li>
+            <li >
+               
+            </li>
+            <li >
+                  <input class="form-control" type="time" placeholder="12:00 AM" value="12:00">
+            </li>
+            <li >
+                  <input class="form-control" type="time" placeholder="11:59 PM" value="11:59">
+            </li>
+            <li >
+              <button type="button" id="weekly-data-save" class="btn btn-primary btn-sbt">Save</button>
+            </li>
+            <li >
+              <button type="button" id="weekly-data-clear" class="btn btn-default  btn-sbt">Clear</button>
+            </li>
+          </ul>
+       
+
+ <ul class="list-group">
+          <li class="list-group-item list-tite" style="margin-right: 25px;">Monthly</li>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="weekly-keywords" placeholder="Enter Keywords" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="weekly-criteria" placeholder="Enter Search Criteria" required>
+              </div>
+              <p class="weekly-success"></p>
+            </form>
+        </ul>
+       <ul >
+            <li >
+              
+  <select>
+   <option [value]="country">hello</option>
+ </select>     
+ 
+          </li>
+            <li >
+              <input type="date" class="form-control" >
+            </li>
+            <li >
+               
+            </li>
+            <li >
+                  <input class="form-control" type="time" placeholder="12:00 AM" value="12:00">
+            </li>
+            <li >
+                  <input class="form-control" type="time" placeholder="11:59 PM" value="11:59">
+            </li>
+            <li >
+              <button type="button" id="weekly-data-save" class="btn btn-primary btn-sbt">Save</button>
+            </li>
+            <li >
+              <button type="button" id="weekly-data-clear" class="btn btn-default  btn-sbt">Clear</button>
+            </li>
+          </ul>
+       
+
+        <ul class="list-group">
+          <li class="list-group-item list-tite" style="margin-right: 25px;">Custom</li>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="weekly-keywords" placeholder="Enter Keywords" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="weekly-criteria" placeholder="Enter Search Criteria" required>
+              </div>
+              <p class="weekly-success"></p>
+            </form>
+        </ul>
+       <ul >
+            <li >
+              
+  <select>
+   <option [value]="country">hello</option>
+ </select>     
+ 
+          </li>
+            <li >
+              <input type="date" class="form-control" >
+            </li>
+            <li >
+               
+            </li>
+            <li >
+                  <input class="form-control" type="time" placeholder="12:00 AM" value="12:00">
+            </li>
+            <li >
+                  <input class="form-control" type="time" placeholder="11:59 PM" value="11:59">
+            </li>
+            <li >
+              <button type="button" id="weekly-data-save" class="btn btn-primary btn-sbt">Save</button>
+            </li>
+            <li >
+              <button type="button" id="weekly-data-clear" class="btn btn-default  btn-sbt">Clear</button>
+            </li>
+          </ul>
+       
+
+
+
+
+
+    </div>
+  </accordion-group>
+
+
+
+
+
+
+  <accordion-group heading="Checklist definition">
+      <div>
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"></a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"></a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"></a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"></a></li>
+        </ul>
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+      <form><br>
+        <div class="form-group  row">
+          <label class="control-label col-sm-3">Does Drugs Belong to Aurbindo</label>
+              <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider"></span>
+                </label>
+        </div>
+        <div class="form-group  row">
+          <label class="control-label  col-sm-3">Country of Authorization</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" >
+          </div>
+        </div>
+        <div class="form-group  row">
+          <label class="control-label col-sm-3" style="color:#22527d">Product</label>
+        </div>
+        <div class="form-group  row">
+          <label class="control-label  col-sm-3">Publication Date</label>
+          <div class="col-sm-3">
+            <input type="date" class="form-control" >
+          </div>
+        </div>
+        <div class="form-group  row">
+          <label class="control-label  col-sm-3">Approval Date</label>
+          <div class="col-sm-3">
+            <input type="date" class="form-control" >
+          </div>
+        </div>
+        <br><br>
+        <div class="form-group  row">
+          <label class="control-label  col-sm-3">WithDrawl Date</label>
+          <div class="col-sm-3">
+            <input type="date" class="form-control" >
+          </div>
+        </div>
+        <div class="form-group  row">
+          <label class="control-label col-sm-3" style="color:#22527d">Drug</label>
+        </div>
+        <div class="form-group  row">
+          <label class="control-label  col-sm-3">Route of Administration of drugs</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" >
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="control-label  col-sm-3">Formulation of drugs</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" >
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="control-label  col-sm-3">Drug Brand</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" >
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="control-label  col-sm-3">Relationship between drug and event</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" >
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="control-label col-sm-3" style="color:#22527d">Author comment</label>
+        </div>
+        <div class="form-group row">
+          <label class="control-label  col-sm-3">Case Report found for databasing</label>
+<label class="switch">
+    <input type="checkbox">
+    <span class="slider"></span>
+  </label>
+        </div>
+        <div class="form-group row">
+          <label class="control-label  col-sm-3">Drug used for treatment</label>
+<label class="switch">
+    <input type="checkbox">
+    <span class="slider"></span>
+  </label>
+        </div>
+      </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+      <div id="contact">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure in omnis, reprehenderit quo repellendus atque, eligendi, libero alias aspernatur ipsum modi necessitatibus sit voluptatum molestias suscipit quisquam architecto laudantium. A?</p>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="messages">3</div>
+    <div role="tabpanel" class="tab-pane" id="settings">4</div>
+  </div>
+      </div>
+  <br>
+
+  </accordion-group>
+  <accordion-group heading="Another group">
+    <p>Some content</p>
+  </accordion-group>
+</accordion>
+
+<footer>
+  <div class="clearfix">
+    <span ><a href="" >About</a>&nbsp;|<a href="">Privacy</a></span>
+    <a >Instance Assistance:1800-180-1503</a>
+    <span><a>For Aurbindos pharma Internal use only</a></span>
+  </div>
+</footer>
