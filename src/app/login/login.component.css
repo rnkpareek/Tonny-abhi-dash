@@ -1,6 +1,8 @@
 .login-form {
     width: 340px;
       margin: 50px auto;
+      /*margin-left: -18%;*/
+      width: 50%;  
   }
     .login-form form {
       margin-bottom: 15px;
@@ -18,4 +20,16 @@
     .btn {        
         font-size: 15px;
         font-weight: bold;
+    }
+    .login{
+        /*background-color: lightgreen;*/
+        background-image: url('/assets/loginback.jpg');
+        padding: 7% 9% 9% 9%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .login-logo img{
+        width: 35%;
     }

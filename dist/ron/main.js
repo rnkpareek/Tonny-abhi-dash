@@ -561,7 +561,7 @@ var DashboardComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".login-form {\n    width: 340px;\n      margin: 50px auto;\n  }\n    .login-form form {\n      margin-bottom: 15px;\n        background: #f7f7f7;\n        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\n        padding: 30px;\n    }\n    .login-form h2 {\n        margin: 0 0 15px;\n    }\n    .form-control, .btn {\n        min-height: 38px;\n        border-radius: 2px;\n    }\n    .btn {        \n        font-size: 15px;\n        font-weight: bold;\n    }"
+module.exports = ".login-form {\n    width: 340px;\n      margin: 50px auto;\n      /*margin-left: -18%;*/\n      width: 50%;  \n  }\n    .login-form form {\n      margin-bottom: 15px;\n        background: #f7f7f7;\n        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);\n        padding: 30px;\n    }\n    .login-form h2 {\n        margin: 0 0 15px;\n    }\n    .form-control, .btn {\n        min-height: 38px;\n        border-radius: 2px;\n    }\n    .btn {        \n        font-size: 15px;\n        font-weight: bold;\n    }\n    .login{\n        /*background-color: lightgreen;*/\n        background-image: url('/assets/loginback.jpg');\n        padding: 7% 9% 9% 9%;\n        overflow: hidden;\n        background-repeat: no-repeat;\n        background-size: 100% 100%;\n    }\n    .login-logo img{\n        width: 35%;\n    }"
 
 /***/ }),
 
@@ -968,7 +968,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/abhi/Desktop/Tonny-abhi-dash/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/sbees1/Ronak/Angular/hero-auro/Tonny-abhi-dash/src/main.ts */"./src/main.ts");
 
 
 /***/ })
